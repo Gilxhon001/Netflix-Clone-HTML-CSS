@@ -1,0 +1,57 @@
+.watch, .kids {
+    display: flex;
+background: transparent;
+background-color: black;
+border-bottom: 8px solid #222;
+color: #fff;
+margin-bottom: 0;
+padding: 70px 45px;
+position: relative;
+}
+.watch-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.watch-text, .kids-text {
+    padding: 0 0 0 3rem;
+    width: 52%;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.watch-title, .kids-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.watch-subtitle, .kids-subtitle {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 0.75em 0 0.25em;
+}
+.kids-container {
+    flex-flow: row-reverse;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+
+}
+@media (max-width: 999px) {
+    .kids, .watch {
+        padding: 50px 15px;
+    }
+    .kids-container, .watch-container {
+        flex-direction: column;
+    }
+    #kids-image, #watch-image {
+        max-height: initial;
+        max-width: 100%;
+    }
+    .kids-text, .watch-text {
+        width: 100%;
+    }
+}
