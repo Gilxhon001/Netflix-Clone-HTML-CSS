@@ -1,0 +1,179 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Hero Image */
+.hero_image-Container {
+    top: 0;
+    left: 0;
+    height: 733.375px;
+    background-image: url(../assets/hero-img.jpg);
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------------------------- */
+
+
+/*Hero Shadow*/
+.hero .hero_background {
+    position: absolute;
+    height: 733.375px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8));
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* Navbar */
+.hero_navbar {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.hero_navbar-Container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: .9rem 3.5rem;
+
+}
+
+.hero_navbar--logo {
+    height: 50px;
+    padding-top: 0.5rem;
+    width: 170px;
+    background: url(../assets/Logonetflix.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.3s ease-out;
+    margin-top: 0.5rem;
+    transform: scale(1.1);
+}
+
+.hero_navbar--btn {
+    background-color: #e50914;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+
+.hero_navbar--btn a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* Email Section */
+.hero_membership {
+    top: 20%;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.hero_membership-Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.hero_membership h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.hero_membership h2 {
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    font-weight: 300;
+    text-align: center;
+}
+
+.hero_membership h3 {
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.hero_membership--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 0.85rem;
+    margin: 0rem auto;
+
+}
+
+.hero_membership--form .input {
+    display: flex;
+    max-width: 100%;
+    width: 50rem;
+    padding: 0 1rem;
+}
+
+.hero_membership--email {
+    width: 100%;
+    height: 4rem;
+    padding: 10px ;
+    box-shadow: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    max-width: 100%;
+}
+.hero_membership--email:focus {
+    border-color: #0071eb;
+    outline: none;
+}
+
+.hero_membership--btn {
+    background-color: #e50914;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 40%;
+    height: 4rem;
+    max-width: 100%;
+}
+
+.hero_membership--btn:hover {
+    background-color: #ff000d;
+
+}
