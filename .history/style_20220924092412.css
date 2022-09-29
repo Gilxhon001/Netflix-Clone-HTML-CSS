@@ -1,0 +1,16 @@
+.watch-container {
+background: transparent;
+background-color: #222;
+border-bottom: 8px solid #222;
+color: #fff;
+margin-bottom: 0;
+padding: 50px 5%;
+position: relative;
+}
+.watch {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}

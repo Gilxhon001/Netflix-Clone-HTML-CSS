@@ -1,0 +1,37 @@
+.watch-container {
+background: transparent;
+background-color: black;
+border-bottom: 8px solid #222;
+color: #fff;
+margin-bottom: 0;
+padding: 50px 5%;
+position: relative;
+}
+.watch {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.kids-container {
+background: transparent;
+background-color: black;
+border-bottom: 8px solid #222;
+color: #fff;
+margin-bottom: 0;
+padding: 50px 5%;
+position: relative;
+}
+.kids {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.kids-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
